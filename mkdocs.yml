@@ -1,0 +1,62 @@
+site_name: GeoSpatial Platform - Development Draft
+
+nav:
+    - About GEO: index.md
+    - Logging In: login.md
+    - Virtual Machine Basics: vm.md
+    - Data Basics:
+        - Data Pipelines: pipeline.md
+        - PostgreSQL + PostGIS: postgresql.md
+        - Data Storage: storage.md
+    - ArcGIS ecosystem:
+        - ArcGIS Portal: portal.md
+        - ArcGIS Pro: pro.md
+        - ArcGIS Insights: insights.md
+    - QGIS: qgis.md
+    #- GeoServer: GeoServer.md
+    #- COST vs FOSS : options.md
+    - Metadata:
+        - Standards: hnap.md
+        - GeoNetwork: geonetwork.md
+
+    #- Publishing: publish.md
+    - Cross-Platform (AAW/CAE):
+        - AAW: aaw.md
+        - CAE: cae.md
+    - Best Practices: bp.md
+    - Knowledge Centre:
+        - Simple GIS Intro: intro.md
+        - Training and Tutorials: resources.md
+    - FAQ & Contact: faq.md
+    - (inactive):
+        - (GeoServer): GeoServer.md
+        - (contact now FAQ): contact.md
+
+    
+
+theme:
+  name: material
+  language: en
+  features:
+    - tabs
+  palette:
+    primary: green
+    accent: red
+  show_sidebar: true
+  #logo:
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      #emoji_index: !!python/name:materialx.emoji.twemoji
+      #emoji_generator: !!python/name:materialx.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  
+# Copyright
+copyright: 'Copyright &copy; 2020 ECulkin '
